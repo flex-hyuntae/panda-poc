@@ -1,0 +1,15 @@
+{
+  "name": "@panda-poc/panda-presets",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "@panda-poc/colors": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
