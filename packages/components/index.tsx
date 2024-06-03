@@ -5,7 +5,7 @@ const Button = ({ children }: {
   children: ReactNode
 }) => {
   return (
-    <button type="button" className={css({ bg: 'blue.400', px: '2', py: '3' })}>
+    <button type="button" className={css({ bg: 'blueLight', px: '2', py: '3' })}>
       {children}
     </button>
   )
