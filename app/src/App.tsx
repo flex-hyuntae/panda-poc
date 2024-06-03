@@ -50,6 +50,7 @@ function App() {
 const StyledButton = styled(Button, {
   base: {
     bg: 'greenLight',
+    px: '20'
   }
 })
 

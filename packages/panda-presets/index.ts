@@ -14,6 +14,20 @@ const colorTokens = Object.entries(colors).reduce(
 ); 
 
 const presets = definePreset({
+  utilities: {
+    extend: {
+      px: {
+        className: 'px',
+        shorthand: 'px',
+        transform(value) {
+          return { 
+            paddingLeft: value,
+            paddingRight: value,
+          }
+        }
+      }
+    }
+  },
   theme: {
     extend: {
       tokens: {
