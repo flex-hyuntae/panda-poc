@@ -1,6 +1,4 @@
-import {
-  colors,
-} from '@panda-poc/colors';
+import { colors } from '@panda-poc/colors';
 import { definePreset } from '@pandacss/dev';
 
 const colorTokens = Object.entries(colors).reduce(

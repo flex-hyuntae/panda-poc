@@ -1,6 +1,6 @@
-import { ComponentPropsWithoutRef, ReactNode } from "react"
 import { css, cva, cx } from '@panda-poc/panda-css/css';
-import { styled } from '@panda-poc/panda-css/jsx'
+import { styled } from '@panda-poc/panda-css/jsx';
+import { ComponentPropsWithoutRef } from "react";
 
 /**
  * css function 사용해서 제공
@@ -110,4 +110,5 @@ const paragraphRecipe = cva({
 
 const StyledParagraph = styled('p', paragraphRecipe);
 
-export { Flex, Button, Title, Paragraph }
+export { Button, Flex, Paragraph, Title };
+
