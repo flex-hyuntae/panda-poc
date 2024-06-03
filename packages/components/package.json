@@ -8,6 +8,9 @@
   "scripts": {
     "build": "rm -rf dist && tsc"
   },
+  "dependencies": {
+    "@panda-poc/panda-css": "workspace:^"
+  },
   "devDependencies": {
     "@types/react": "^18.3.3",
     "react": "^18.3.1",
