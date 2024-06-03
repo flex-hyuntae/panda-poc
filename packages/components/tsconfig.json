@@ -5,6 +5,7 @@
     "target": "ES2015",
     "allowJs": false,
     "declaration": true,
+    "declarationMap": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "module": "NodeNext",
