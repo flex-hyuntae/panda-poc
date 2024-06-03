@@ -1,9 +1,6 @@
 import { ReactNode } from "react"
 import { css } from '@panda-poc/panda-css/css'
 
-import './styles.css'
- 
-
 const Button = ({ children }: {
   children: ReactNode
 }) => {

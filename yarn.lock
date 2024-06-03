@@ -671,7 +671,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@panda-poc/components@workspace:packages/components"
   dependencies:
-    "@panda-poc/panda-css": "workspace:^"
     "@pandacss/dev": "npm:^0.40.0"
     "@types/react": "npm:^18.3.3"
     react: "npm:^18.3.1"

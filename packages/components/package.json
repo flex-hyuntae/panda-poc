@@ -6,10 +6,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist && tsc && panda cssgen --outfile dist/styles.css"
-  },
-  "dependencies": {
-    "@panda-poc/panda-css": "workspace:^"
+    "build": "rm -rf dist && tsc"
   },
   "devDependencies": {
     "@pandacss/dev": "^0.40.0",
