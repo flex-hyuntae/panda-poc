@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
+import { Button, Flex, Paragraph, Title } from '@panda-poc/components'
 import { css } from '@panda-poc/panda-css/css'
-import { Button } from '@panda-poc/components'
+import { styled } from '@panda-poc/panda-css/jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -20,19 +19,57 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button className={css({ bg: 'magentaDarker', px: '6', py: '9' })} onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button className={css({ bg: 'magentaLight', px: '6', py: '9' })}>
+          Button Custom css
         </button>
-        <Button>Test</Button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <Button>Button</Button>
+        <StyledButton>Styled button test</StyledButton>
+        <Title>Title</Title>
+        <StyledTitle>
+          Styled Title
+        </StyledTitle>
+        <Flex align="start" justify="end">
+          <div>Flex1</div>
+          <div>Flex2</div>
+        </Flex>
+        <StyledFlex>
+          <div>StyledFle1</div>
+          <div>StyledFle2</div>
+        </StyledFlex>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Paragraph>
+        Paragraph
+      </Paragraph>
+      <StyledParagraph>
+        StyledParagraph
+      </StyledParagraph>
     </>
   )
 }
+
+const StyledButton = styled(Button, {
+  base: {
+    bg: 'greenLight',
+  }
+})
+
+const StyledTitle = styled(Title, {
+  base: {
+    color: 'yellowDark'
+  }
+})
+
+const StyledFlex = styled(Flex, {
+  base: {
+    width: '100%',
+    alignItems: 'center'
+  }
+});
+
+const StyledParagraph = styled(Paragraph, {
+  base: {
+    color: 'goldDark'
+  }
+})
 
 export default App
