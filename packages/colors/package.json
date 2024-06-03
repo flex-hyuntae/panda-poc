@@ -1,0 +1,17 @@
+{
+  "name": "@panda-poc/colors",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react-dom": "^18.3.1"
+  }
+}
