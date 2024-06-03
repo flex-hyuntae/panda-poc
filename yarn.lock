@@ -651,6 +651,7 @@ __metadata:
   dependencies:
     "@panda-poc/components": "workspace:^"
     "@panda-poc/panda-css": "workspace:^"
+    "@panda-poc/panda-presets": "workspace:^"
     "@pandacss/dev": "npm:^0.40.0"
     "@types/react": "npm:^18.2.66"
     "@types/react-dom": "npm:^18.2.22"
@@ -667,11 +668,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@panda-poc/colors@workspace:^, @panda-poc/colors@workspace:packages/colors":
+  version: 0.0.0-use.local
+  resolution: "@panda-poc/colors@workspace:packages/colors"
+  dependencies:
+    typescript: "npm:^5.4.5"
+  peerDependencies:
+    react-dom: ^18.3.1
+  languageName: unknown
+  linkType: soft
+
 "@panda-poc/components@workspace:^, @panda-poc/components@workspace:packages/components":
   version: 0.0.0-use.local
   resolution: "@panda-poc/components@workspace:packages/components"
   dependencies:
-    "@pandacss/dev": "npm:^0.40.0"
     "@types/react": "npm:^18.3.3"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
@@ -691,6 +701,15 @@ __metadata:
     typescript: "npm:^5.4.2"
   peerDependencies:
     react: "*"
+  languageName: unknown
+  linkType: soft
+
+"@panda-poc/panda-presets@workspace:^, @panda-poc/panda-presets@workspace:packages/panda-presets":
+  version: 0.0.0-use.local
+  resolution: "@panda-poc/panda-presets@workspace:packages/panda-presets"
+  dependencies:
+    "@panda-poc/colors": "workspace:^"
+    typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
 

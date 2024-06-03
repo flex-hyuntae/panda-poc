@@ -20,7 +20,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button className={css({ bg: 'red.600', px: '6', py: '9' })} onClick={() => setCount((count) => count + 1)}>
+        <button className={css({ bg: 'magentaDarker', px: '6', py: '9' })} onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <Button>Test</Button>

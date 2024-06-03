@@ -12,6 +12,7 @@
   "dependencies": {
     "@panda-poc/components": "workspace:^",
     "@panda-poc/panda-css": "workspace:^",
+    "@panda-poc/panda-presets": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
