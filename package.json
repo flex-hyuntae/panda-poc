@@ -9,8 +9,11 @@
     "app",
     "packages/*"
   ],
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.2",
   "repository": "git@github.com:flex-hyuntae/panda-poc.git",
   "author": "flex-hyuntae <flex-hyuntae@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
