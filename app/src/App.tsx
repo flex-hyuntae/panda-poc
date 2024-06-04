@@ -49,7 +49,7 @@ function App() {
 
 const StyledButton = styled(Button, {
   base: {
-    bg: 'greenLight',
+    bg: 'greenLighter',
     px: '20'
   }
 })

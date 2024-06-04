@@ -5,17 +5,20 @@
     "target": "ES2015",
     "allowJs": false,
     "declaration": true,
-    "declarationMap": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "declarationMap": true,
     "preserveConstEnums": true,
     "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "esModuleInterop": true,
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
-    "lib": ["esnext", "DOM", "DOM.Iterable"],
-    "outDir": "dist"
+    "outDir": "dist",
   }
 }
