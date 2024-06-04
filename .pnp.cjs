@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
     ["@panda-poc/app", ["workspace:app"]],\
-    ["@panda-poc/colors", ["virtual:d4321a58b1bb82627d78bd0bae4b5ba9980f0aca2612c3f533272c7c24249099e5c66fd07dde5e1c95a8ac1e661abd80d7bc46c429e47f32524e0cc354303d2d#workspace:packages/colors", "workspace:packages/colors"]],\
+    ["@panda-poc/colors", ["workspace:packages/colors"]],\
     ["@panda-poc/components", ["virtual:7bcee1ab0e4f2827a560796e6d40154e75ff344906b3c5941a7533b2dbc984c57740064b0f446fe23d66a5fcfb275e90108acff08012f2c91cb5c6b3a4fd0575#workspace:packages/components", "workspace:packages/components"]],\
     ["@panda-poc/panda-css", ["virtual:7bcee1ab0e4f2827a560796e6d40154e75ff344906b3c5941a7533b2dbc984c57740064b0f446fe23d66a5fcfb275e90108acff08012f2c91cb5c6b3a4fd0575#workspace:packages/panda-css", "workspace:packages/panda-css"]],\
     ["@panda-poc/panda-presets", ["workspace:packages/panda-presets"]],\
@@ -906,20 +906,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@panda-poc/colors", [\
-      ["virtual:d4321a58b1bb82627d78bd0bae4b5ba9980f0aca2612c3f533272c7c24249099e5c66fd07dde5e1c95a8ac1e661abd80d7bc46c429e47f32524e0cc354303d2d#workspace:packages/colors", {\
-        "packageLocation": "./.yarn/__virtual__/@panda-poc-colors-virtual-6f65d87038/1/packages/colors/",\
-        "packageDependencies": [\
-          ["@panda-poc/colors", "virtual:d4321a58b1bb82627d78bd0bae4b5ba9980f0aca2612c3f533272c7c24249099e5c66fd07dde5e1c95a8ac1e661abd80d7bc46c429e47f32524e0cc354303d2d#workspace:packages/colors"],\
-          ["@types/react-dom", null],\
-          ["react-dom", null],\
-          ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "react-dom"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
       ["workspace:packages/colors", {\
         "packageLocation": "./packages/colors/",\
         "packageDependencies": [\
@@ -994,7 +980,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/panda-presets/",\
         "packageDependencies": [\
           ["@panda-poc/panda-presets", "workspace:packages/panda-presets"],\
-          ["@panda-poc/colors", "virtual:d4321a58b1bb82627d78bd0bae4b5ba9980f0aca2612c3f533272c7c24249099e5c66fd07dde5e1c95a8ac1e661abd80d7bc46c429e47f32524e0cc354303d2d#workspace:packages/colors"],\
+          ["@panda-poc/colors", "workspace:packages/colors"],\
           ["@pandacss/dev", "npm:0.40.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"]\
         ],\
